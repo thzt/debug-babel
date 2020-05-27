@@ -1,0 +1,26 @@
+{
+  "name": "debug-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions '.ts'",
+    "debug": "node --inspect-brk=5858 node_modules/.bin/babel src --out-dir dist --extensions '.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thzt/debug-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thzt/debug-babel/issues"
+  },
+  "homepage": "https://github.com/thzt/debug-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.0",
+    "@babel/core": "^7.10.0",
+    "@babel/preset-typescript": "^7.9.0"
+  }
+}
